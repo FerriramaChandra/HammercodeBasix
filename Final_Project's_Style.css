@@ -1,0 +1,314 @@
+*{
+    margin: 0;
+    font-family: sans-serif;
+}
+.BackgroundMiring{
+    background-image: linear-gradient(to right, #FFEB3B, #FFBA00);
+    transform: skewY(-8deg);
+    box-sizing: border-box;
+    width: 100%;
+    height: 750px;
+    margin-top: -300px;
+    overflow: hidden;
+    position: absolute;
+    z-index: -1;
+}
+.TulisanPadaMiring{
+    list-style-type: none;
+    padding: 20px;
+    font-weight: bold;
+    font-size: 20px;
+    display: block;
+    text-align: center;
+    text-decoration: none;
+}
+    a{
+        text-decoration: none;
+        color: black;
+    }
+    a:hover{
+        color: rgb(0, 10, 100);
+    }
+    .Terbit{
+        margin-top: 40px;
+        margin-left: 100px;
+        float: left;
+    }
+    .Jadwal{
+        margin-top: 40px;
+        margin-left: 950px;
+        float: left;
+    }
+    .Alumni{
+        margin-top: 40px;
+        margin-left: 30px;
+        float: left;
+    }
+.header{
+    text-align: center;
+    margin-top: 200px;
+}
+
+
+.MKH{
+    margin-top: 450px;
+    margin-left: 200px;
+    line-height: 2;
+}
+.MengapaKamiHadir{
+    color: teal;
+    font-weight: lighter;
+    line-height: 3;
+}
+.GambarPadaMKH{
+    float: right;
+}
+.GambarMKH1{
+    z-index: -1;
+    margin-left: 650px;
+    margin-top: -210px;
+    height: 220px;
+    box-shadow: 5px 5px 5px grey;
+}
+.GambarMKH2{
+    margin-left: 720px;
+    margin-top: -90px;
+    box-shadow: 5px 5px 5px grey;
+}
+
+
+.BagianProgramKami{
+    background-color: rgb(237, 252, 250);
+    height: 750px;
+    width: 100%;
+}
+.ProgramKami{
+    text-align: center;
+    margin-top: 150px;
+    padding-top: 150px;
+    font-weight: lighter;
+    color: teal;
+}
+.KolomPadaProgramKami{
+    margin-top: 20px;
+    margin-left: 250px;
+    margin-right: 250px;
+}
+    .KotakDasar{
+        border: 5px black;
+        width: 300px;
+        height: 425px;
+        float: left;
+        background-color: white;
+        box-shadow: 2px 1px 1px 2px gray;
+    }
+        .WarnaGambarProgramKamiDasar{
+            background-color:green;
+            height: 150px;
+            width: 300px; 
+        }
+            .GambarProgramKamiDasar{
+                background-image: url(img-1.jpg);
+                height: 150px;
+                width: 300px;
+                z-index: -1;
+                opacity: 0.5;
+            }
+                .KotakKolomDasar{
+                    list-style-type: none;
+                    line-height: 2;
+                    font-weight: lighter;
+                }
+                    .TulisanDasar{
+                        font-weight: lighter;
+                        line-height: 3;
+                    }
+    .KotakMenengah{
+        border: 5px black;
+        width: 300px;
+        height: 425px;
+        float: right;
+        background-color: white;
+        box-shadow: 2px 1px 1px 2px gray;
+    }
+        .WarnaGambarProgramKamiMenengah{
+            background-color: blue;
+            height: 150px;
+            width: 300px;
+        }
+            .GambarProgramKamiMenengah{
+                background-image: url(img-1.jpg);
+                height: 150px;
+                width: 300px;
+                z-index: -1;
+                opacity: 0.5;
+            }
+                .KotakKolomMenengah{
+                    list-style-type: none;
+                    line-height: 2;
+                    font-weight: lighter;
+                }
+                    .TulisanMenengah{
+                        font-weight: lighter;
+                        line-height: 3;
+                    }
+
+
+.InstrukturVolunteer{
+    text-align: center;
+    margin-top: 100px;
+    font-weight: lighter;
+    color: teal;
+}
+.Pengguna{
+    margin-top: 100px; 
+    margin-left: 200px;
+    margin-right: 200px;    
+}
+h4{
+    font-weight: lighter;
+    font-size: 20px;
+}
+    .Pengguna1{
+        position: absolute;
+        float: left;
+        margin-left: 50px;
+        height: 300px;
+        width: 250px;
+        text-align: center;
+        line-height: 2;
+    }
+    .Pengguna2{
+        position: absolute;
+        margin-left: 350px;
+        height: 300px;
+        width: 250px;
+        text-align: center;
+        line-height: 2;
+    }
+    .Pengguna3{
+        float: right;
+        margin-right: 20px;
+        height: 300px;
+        width: 250px;
+        text-align: center;
+        line-height: 2;
+    }
+    .Pengguna1:hover{
+        transform: scale(1.1);
+        transition: 0.5s all;
+        box-shadow: 0px 0px 0px 1px gray;
+    }
+    .Pengguna2:hover{
+        transform: scale(1.1);
+        transition: 0.5s all;
+        box-shadow: 0px 0px 0px 1px gray;
+    }
+    .Pengguna3:hover{
+        transform: scale(1.1);
+        transition: 0.5s all;
+        box-shadow: 0px 0px 0px 1px gray;
+    }
+.TombolLihatLebihLengkap button{
+    margin-top: 350px;
+    margin-left: 590px;
+    padding-top: 5px;
+    background-color: #FFEB3B;
+    border-radius: 30px;
+    height: 50px;
+    width: 160px;
+    text-align: center;
+    font-size: medium;
+    font-weight: lighter;
+}
+
+
+.BackgroundMariBelajarBersamaKami{
+    background-image: linear-gradient(to right, #FFEB3B, #FFBA00);
+    margin-top: 125px;
+    box-sizing: border-box;
+    position: absolute;
+    height: 400px;
+    width: 100%;
+    z-index: -1;
+}
+.TulisanMariBelajarBersamaKami{
+    margin-top: 240px;
+    margin-left: 250px;
+    margin-right: 250px;
+    height: 200px;
+    text-align: left;
+    background-color: white;
+    border-radius: 10px;
+}
+    .MariBelajarBersamaKami{
+        position: absolute;
+        padding-top: 35px;
+        padding-left: 50px;
+        font-weight: lighter;
+        line-height: 2;
+    }
+        .LoremMariBelajar{
+            color: teal;
+            font-weight: lighter;
+        }
+        .TombolDaftarUntukMulai{
+            padding-top: 75px;
+            padding-right: 50px;
+            float: right;
+        }
+            .TombolDaftarUntukMulai button{
+                background-image: linear-gradient(to right, #FFEB3B, #FFBA00);
+                border-radius: 40px;
+                height: 40px;
+                width: 180px;
+            }
+
+
+.BackgroundKamiBagianDariKomunitasHammerCode{
+    background-image: url(community.jpg);
+    margin-top: 85px;
+    position: absolute;
+    filter: brightness(50%);
+    height: 500px;
+    width: 100%;
+    border: 1px black;
+    z-index: -1;
+}
+.TulisanKamiBagian{
+    margin-top: 250px;
+    text-align: center;
+    color: rgb(168, 167, 167);
+    font-weight: lighter;
+    line-height: 2;
+}
+    .TulisanLoremKamiBagian{
+        font-weight: lighter;
+    }
+        .KamiBagian{
+            font-weight: lighter;
+        }
+    .TombolGabung button{
+        margin-top: 20px;
+        height: 40px;
+        background-color: #FFEB3B;
+        color: black;
+        border-radius: 20px;
+    }
+
+
+.PaluHarapan{
+    margin-top: 163px;
+    background-color: rgb(49, 49, 49);
+    position: absolute;
+    z-index: -1;
+    height: 150px;
+    width: 100%;
+}
+.TulisanPaluHarapan{
+    margin-top: 235px;
+    text-align: center;
+    color: rgb(78, 76, 76);
+    font-weight: lighter;
+    font-size: medium;
+}
